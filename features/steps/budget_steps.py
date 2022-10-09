@@ -1,10 +1,10 @@
 from behave import given, when, then
 
 
-@given('Setting a budget')
-def set_budget(context):
+@given('Setting a budget {budget}')
+def set_budget(context, budget):
     context.app.main_screen.go_to_settings()
-    context.app.setting_screen.set_budget('1000')
+    context.app.setting_screen.set_budget(budget)
     context.app.setting_screen.check_budget('$1,000.00')
 
 

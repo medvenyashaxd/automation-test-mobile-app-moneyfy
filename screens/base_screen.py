@@ -37,7 +37,7 @@ class BaseScreen:
     def setting_swipe(self):
         action = TouchAction(self.driver)
         time.sleep(2)
-        action.long_press(x=1065, y=1300, duration=3000).move_to(x=200, y=1300).release().perform()
+        action.long_press(x=1065, y=1300, duration=1800).move_to(x=200, y=1300).release().perform()
 
     def check_property_changes(self, mutable_property: str, locator):
         text = self.find_element(locator).text

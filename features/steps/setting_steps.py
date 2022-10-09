@@ -17,10 +17,10 @@ def set_language(context):
     context.app.setting_screen.set_language()
 
 
-@when('Set currency byn')
-def set_currency(context):
+@when('Set currency {name}')
+def set_currency(context, name):
     context.app.main_screen.go_to_settings()
-    context.app.setting_screen.set_currency('BYN')
+    context.app.setting_screen.set_currency(name)
 
 
 @when('Set first day of week value')
