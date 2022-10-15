@@ -4,6 +4,8 @@ Python based test with incoming libraries Appium, behave + allure.
 
 
 The test checks application settings such as language, night mode, currency, start of month, start of week. Basic functionality test set budget, spend budget, replenish budget.
+
+
 Swipes and taps by coordinates are present in the test
 
 
