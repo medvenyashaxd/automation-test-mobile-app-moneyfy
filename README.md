@@ -2,7 +2,7 @@
 	
 Python based test with incoming libraries Appium, behave + allure.
 The test checks application settings such as language, night mode, currency, start of month, start of week. Basic functionality test set budget, spend budget, replenish budget.
-swipes and taps by coordinates are present in the test
+Swipes and taps by coordinates are present in the test
 ![test-app-moneyfy](https://user-images.githubusercontent.com/110237352/195994705-fd1ba546-e5bb-4844-a66c-97cc4872301c.gif)
 
 
