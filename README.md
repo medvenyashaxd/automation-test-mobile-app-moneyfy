@@ -1,4 +1,4 @@
-# automation-test-mobile-app-moneyfy
+# Automation test mobile app moneyfy
 	
 Python based test with incoming libraries Appium, behave + allure.
 
