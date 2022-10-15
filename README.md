@@ -12,3 +12,5 @@ Swipes and taps by coordinates are present in the test
 
 allure report:
 ![allure-app-moneyfy](https://user-images.githubusercontent.com/110237352/195994722-192c88eb-7b0e-4284-b699-60c66531b6d3.gif)
+
+app: https://play.google.com/store/apps/details?id=com.monefy.app.pro&hl=en&gl=US
