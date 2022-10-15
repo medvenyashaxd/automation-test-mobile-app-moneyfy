@@ -9,7 +9,7 @@ def before_scenario(context, scenario):
         "automationName": "UiAutomator2",
         "platformVersion": "11",
         "skipUnlock": "false",
-        "app": r"C:\Users\xmedv\PycharmProjects\qa-mobile-application-moneyfy\app_bin\money-pro.apk"
+        "app": r"C:\Users\xmedv\PycharmProjects\automation-qa-test-mobile-app-moneyfy\app_bin\money-pro.apk"
     }
 
     context.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_capabilities=desired_capabilities)
@@ -19,3 +19,4 @@ def before_scenario(context, scenario):
 
 def after_scenario(context, scenario):
     context.driver.quit()
+

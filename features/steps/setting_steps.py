@@ -41,4 +41,3 @@ def verify_change_setting(context):
     context.app.setting_screen.check_week_value('Ср')
     context.app.setting_screen.check_month_value('3')
 
-
