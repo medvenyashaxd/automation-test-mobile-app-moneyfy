@@ -4,7 +4,7 @@ Feature: Test setting
   Background: Being on the main page of the application
     Given Tap on three dots at the top right of the screen and tap setting or swipe to bring up the menu
 
-  Scenario: Setting language, night mode, currency, week, month
+  Scenario: Set language, night mode, currency, week, month
     When The light theme should change to dark
     When The language should change to russian
     When Set currency BYN
